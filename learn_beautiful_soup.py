@@ -33,10 +33,3 @@ for row in rows[1:]:
   df.loc[current_index] = contents
 
 df
-
-# Commented out IPython magic to ensure Python compatibility.
-# Navigate to your project directory (adjust path as needed)
-# %cd /content/drive/My Drive/Your_Git_Project_Folder
-# Configure your Git credentials
-!git config --global user.email "your_email@example.com"
-!git config --global user.name "YourUsername"
